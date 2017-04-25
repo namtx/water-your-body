@@ -23,4 +23,4 @@ crontab -e
 ```sh
 */15 * * * * /path/to/water.sh
 ```
-5. Enjoy!
+6. Enjoy!
