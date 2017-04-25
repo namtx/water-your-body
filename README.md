@@ -14,8 +14,12 @@ sudo chmod +x /path/to/water.sh
 ```sh
 /path/to/water.sh
 ```
-![](http://i.imgur.com/o3OSEU8.jpg)  
+![](http://i.imgur.com/o3OSEU8.jpg)
 4. Create a job which runs every 15 minutes
+```sh
+crontab -e
+```
+5. Add this line to `crontab` config  
 ```sh
 */15 * * * * /path/to/water.sh
 ```
